@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cityWeather {
+  border: 2px solid black;
+  width: 30%;
+  padding: 0 2%;
+  margin: 2%;
+  position: relative;
+  border-radius: 10px;
+}
+
+.cityWeather button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  font-size: 1.2rem;
+}
+
+.cityWeather button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search_form {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.search_form input {
+  line-height: 2rem;
+  width: 320px;
+  font-size: 1rem;
+  padding: 1%;
+  margin: 0 3%;
+  border-radius: 15px;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+
+.search_form button {
+  padding: 1%;
+  font-size: 1rem;
+  width: 120px;
+  border-radius: 5px;
+}
+
+.search_form .icon {
+  position: absolute;
+  left: 20px;
+  top: 13px;
+}
